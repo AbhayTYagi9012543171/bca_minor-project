@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Take the Test - Online Examination</title>
+    <link rel="stylesheet" href="D:\xampp\htdocs\minor project\public\css\index.css">
+</head>
+<body>
+    <div class="exam-container">
+        <form action="backend/exam/exam.php" method="POST">
+            <h2>Exam Questions</h2>
+            <!-- Loop through questions dynamically here -->
+            <div class="question-1">
+                <p>What is 2+2?</p>
+                <input type="radio" name="question_1" value="A"> 2<br>
+                <input type="radio" name="question_1" value="B"> 4<br>
+                <input type="radio" name="question_1" value="C"> 5<br>
+                <input type="radio" name="question_1" value="D"> 6<br>
+            </div>
+            <div class="question-2">
+                <p>What is 9+8?</p>
+                <input type="radio" name="question_1" value="A"> 22<br>
+                <input type="radio" name="question_1" value="B"> 29<br>
+                <input type="radio" name="question_1" value="C"> 55<br>
+                <input type="radio" name="question_1" value="D"> 17<br>
+            </div>
+            <div class="question-3">
+                <p>What is 9*6?</p>
+                <input type="radio" name="question_1" value="A"> 22<br>
+                <input type="radio" name="question_1" value="B"> 100<br>
+                <input type="radio" name="question_1" value="C"> 54<br>
+                <input type="radio" name="question_1" value="D"> 17<br>
+            </div>
+            <button type="submit">Submit Test</button>
+        </form>
+    </div>
+</body>
+</html>
